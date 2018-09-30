@@ -1,5 +1,7 @@
 # my-dotfiles
 
+![screenshot](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshot.png)(Vim/Tmux fullscreen)
+
 ## Instalar
 * Tmux (sudo apt install tmux)
 * Vim (sudo apt install vim)
@@ -11,4 +13,20 @@
 ## Instalar dependências do TPM e do Vim-plug
  * TPM : *prefixo + I*
  * Vim-plug: *:PlugInstall*
+
+## Aliases
+```console
+alias list="ls -la --color=none"
+alias dockerc="docker-compose"
+alias dockerstop="docker stop $(docker ps -q)" # ???
+alias nv="nvim"
+alias yarnb="yarn run build"
+alias yarns="yarn run start"
+alias yarnw="yarn run build && yarn run start"
+alias gulpb="gulp build"
+alias gulpw="gulp watch"
+alias gulpall="gulp sprite && gulp build"
+alias gruntb="grunt build"
+alias gruntw="grunt watch"
+```
 
