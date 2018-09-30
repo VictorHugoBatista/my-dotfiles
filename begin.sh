@@ -8,7 +8,7 @@ copy_to_home () {
     if [ -e "$2/$1" ]; then
         mv "$2/$1" "$2/$1.old"
     fi
-    cp $1 $2
+    cp -a $1 $2
 }
 
 copy_to_home .vimrc ~
