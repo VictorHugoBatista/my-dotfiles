@@ -11,6 +11,9 @@ copy_to_home () {
     cp -a $1 $2
 }
 
+# -----------------------------------------
+
+# Copia os dotfiles para o diretório home
 copy_to_home .vimrc ~
 copy_to_home .zshrc ~
 copy_to_home .tmux.conf ~
