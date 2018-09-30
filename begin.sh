@@ -16,5 +16,5 @@ copy_to_home .zshrc ~
 copy_to_home .tmux.conf ~
 cd .config/nvim/
 copy_to_home init.vim ~/.config/nvim
-cd -
+cd - > /dev/null
 
