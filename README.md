@@ -3,6 +3,8 @@
 ![screenshot](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshot.png)(Vim/Tmux fullscreen)
 
 ## Instalar
+* Oh My ZSH (https://github.com/robbyrussell/oh-my-zsh)
+* NVM (https://github.com/creationix/nvm)
 * Tmux (sudo apt install tmux)
 * Vim (sudo apt install vim)
 * Nvim (sudo apt install neovim)
