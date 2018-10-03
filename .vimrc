@@ -10,6 +10,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Configurações dos plugins do Vim
