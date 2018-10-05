@@ -11,6 +11,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 " Configurações dos plugins do Vim
