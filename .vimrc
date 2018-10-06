@@ -7,7 +7,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'flazz/vim-colorschemes'
-Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
