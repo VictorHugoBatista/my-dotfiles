@@ -15,6 +15,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-fugitive'
 
 " Misc
 Plug 'mhinz/vim-startify'
