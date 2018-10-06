@@ -12,6 +12,7 @@ Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " Configurações dos plugins do Vim
