@@ -22,7 +22,7 @@ Plug 'mhinz/vim-startify'
 call plug#end()
 
 " Configurações dos plugins do Vim
-let g:airline_theme='ravenpower'
+let g:airline_theme='qwq'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 colorscheme materialtheme
