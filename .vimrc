@@ -4,15 +4,20 @@
 " :PlugUpdate
 " :PlugUpgrade
 call plug#begin('~/.vim/plugged')
+" Estilos
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'flazz/vim-colorschemes'
-Plug 'mhinz/vim-startify'
+Plug 'miyakogi/conoline.vim'
+Plug 'Yggdroot/indentLine'
+
+" Comandos e atalhos
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'Yggdroot/indentLine'
-Plug 'miyakogi/conoline.vim'
+
+" Misc
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 " Configurações dos plugins do Vim
