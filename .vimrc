@@ -31,6 +31,7 @@ syntax on
 filetype plugin indent on
 
 " Configurações padrão do Vim
+set number
 set relativenumber
 set nowrap
 set noshowmode
