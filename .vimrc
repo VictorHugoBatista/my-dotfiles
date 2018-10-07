@@ -26,6 +26,7 @@ let g:airline_theme='qwq'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = '\v[\/](\.idea|\.git|vendor|node_modules|bower_components|dist)$'
 colorscheme materialtheme
 
 syntax on
