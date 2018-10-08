@@ -37,6 +37,7 @@ set number
 set relativenumber
 set nowrap
 set noshowmode
+set hidden " Torna a troca entre buffers automática com arquivos não salvos.
 set t_Co=256
 
 " Configurações de espaços
