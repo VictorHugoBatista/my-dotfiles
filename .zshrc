@@ -25,6 +25,11 @@ alias gruntb="grunt build"
 alias gruntw="grunt watch"
 
 # --------------------------------------------------
+# Ajusta as cores do terminal
+# --------------------------------------------------
+export TERM=xterm-256color
+
+# --------------------------------------------------
 # Carrega programas externos
 # --------------------------------------------------
 export NVM_DIR="$HOME/.nvm"
