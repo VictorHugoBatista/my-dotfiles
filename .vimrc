@@ -32,11 +32,11 @@ colorscheme materialtheme
 syntax on
 filetype plugin indent on
 
-" Configurações padrão do Vim
-set number
-set relativenumber
-set nowrap
-set noshowmode
+" Configurações gerais do Vim
+set number " Exibe o número da linha atual, em conjunto com a linha abaixo.
+set relativenumber " Exibe números relativos à posição atual do buffer.
+set nowrap " Remove as quebras de linha no fim da tela.
+set noshowmode " Esconde a barra de status padrão.
 set hidden " Torna a troca entre buffers automática com arquivos não salvos.
 set t_Co=256
 
@@ -46,7 +46,7 @@ set expandtab                       " Troca o tab or espaços
 set tabstop=4                       " Tab equivale a 4 espaços
 set shiftwidth=4                    " Operações como identação usando o >> também com 4 espaços
 set softtabstop=4                   " Operações como o backspace também com 4 espaços
-set list listchars=tab:→\ ,trail:·  " Exibe o caractere tab para o caso de alguém cometer o sacrilégio de misturar espaços com tabs<Paste>
+set list listchars=tab:→\ ,trail:   " Exibe o caractere tab para o caso de alguém cometer o sacrilégio de misturar espaços com tabs<Paste>
 
 " Remove as teclas de setas
 noremap <Up> <NOP>
