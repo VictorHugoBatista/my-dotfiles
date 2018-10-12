@@ -58,3 +58,8 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" Adiciona os comandos A-j e A-k para mover linhas pelo arquivo.
+nmap <C-K> [e
+nmap <C-J> ]e
+vmap <C-K> [egv
+vmap <C-J> ]egv
