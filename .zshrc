@@ -23,6 +23,7 @@ alias gulpw="gulp watch"
 alias gulpall="gulp sprite && gulp build"
 alias gruntb="grunt build"
 alias gruntw="grunt watch"
+alias wp="docker-compose run --rm wp-cli"
 
 # --------------------------------------------------
 # Ajusta as cores do terminal
