@@ -1,8 +1,11 @@
-"Lista dos plugins instalados:
-" https://github.com/junegunn/vim-plug
-" :PlugInstall
-" :PlugUpdate
-" :PlugUpgrade
+" --------------------------------------------------
+" PLUGINS INSTALADOS (VIM-PLUG)
+" --------------------------------------------------
+
+" Comandos disponíveis (https://github.com/junegunn/vim-plug)
+"  - :PlugInstall - Instala plugins listados abaixo
+"  - :PlugUpdate - Atualiza os plugins listados abaixo
+"  - :PlugUpgrade - Atualiza o vim-plug
 call plug#begin('~/.vim/plugged')
 " Estilos
 Plug 'vim-airline/vim-airline'
@@ -25,12 +28,19 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 call plug#end()
 
-" Configurações dos plugins do Vim
+" --------------------------------------------------
+" CONFIGURAÇÕES DE PLUGINS
+" --------------------------------------------------
+
+" Tema do airline
 let g:airline_theme='qwq'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
+" Configurações de busca do CTRL+P
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_custom_ignore = '\v[\/](\.idea|\.git|vendor|node_modules|bower_components|dist)$'
+
 colorscheme materialtheme
 
 syntax on
@@ -44,13 +54,21 @@ set noshowmode " Esconde a barra de status padrão.
 set hidden " Torna a troca entre buffers automática com arquivos não salvos.
 set t_Co=256
 
+" --------------------------------------------------
+" CONFIGURAÇÕES GERAIS
+" --------------------------------------------------
+
 " Configurações de espaços
-set smartindent                     " Mantém a mesma identação que a linha anterior
-set expandtab                       " Troca o tab or espaços
-set tabstop=4                       " Tab equivale a 4 espaços
-set shiftwidth=4                    " Operações como identação usando o >> também com 4 espaços
-set softtabstop=4                   " Operações como o backspace também com 4 espaços
-set list listchars=tab:→\ ,trail:·  " Exibe o caractere tab para o caso de alguém cometer o sacrilégio de misturar espaços com tabs<Paste>
+set smartindent " Mantém a mesma identação que a linha anterior
+set expandtab " Troca o tab or espaços
+set tabstop=4 " Tab equivale a 4 espaços
+set shiftwidth=4 " Operações como identação usando o >> também com 4 espaços
+set softtabstop=4 " Operações como o backspace também com 4 espaços
+set list listchars=tab:→\ ,trail:· " Exibe o caractere tab para o caso de alguém cometer o sacrilégio de misturar espaços com tabs<Paste>
+
+" --------------------------------------------------
+" MAPEAMENTOS DE TECLAS
+" --------------------------------------------------
 
 " Remove as teclas de setas
 noremap <Up> <NOP>
