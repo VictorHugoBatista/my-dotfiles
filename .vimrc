@@ -58,8 +58,12 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
-" Adiciona os comandos A-j e A-k para mover linhas pelo arquivo.
+" Adiciona os comandos C-j e C-k para mover linhas pelo arquivo.
 nmap <C-K> [e
 nmap <C-J> ]e
 vmap <C-K> [egv
 vmap <C-J> ]egv
+
+" Mapeia as teclas Tab e Shift-Tab para trocar tabs por quatro espaços.
+nmap <Tab> :%s/\t/    /g<Enter>
+nmap <S-Tab> :%s/    /\t/g<Enter>
