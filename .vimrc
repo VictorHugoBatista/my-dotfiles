@@ -28,6 +28,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 call plug#end()
 
+filetype plugin indent on
+
 " --------------------------------------------------
 " CONFIGURAÇÕES DE PLUGINS
 " --------------------------------------------------
@@ -43,8 +45,11 @@ let g:ctrlp_custom_ignore = '\v[\/](\.idea|\.git|vendor|node_modules|bower_compo
 
 colorscheme materialtheme
 
-syntax on
-filetype plugin indent on
+" --------------------------------------------------
+" CONFIGURAÇÕES GERAIS
+" --------------------------------------------------
+
+syntax on " Ativa o syntax highlighting.
 
 " Configurações gerais do Vim
 set number " Exibe o número da linha atual, em conjunto com a linha abaixo.
@@ -52,11 +57,7 @@ set relativenumber " Exibe números relativos à posição atual do buffer.
 set nowrap " Remove as quebras de linha no fim da tela.
 set noshowmode " Esconde a barra de status padrão.
 set hidden " Torna a troca entre buffers automática com arquivos não salvos.
-set t_Co=256
-
-" --------------------------------------------------
-" CONFIGURAÇÕES GERAIS
-" --------------------------------------------------
+set t_Co=256 " Ativa as cores exibidas nos temas.
 
 " Configurações de espaços
 set smartindent " Mantém a mesma identação que a linha anterior
