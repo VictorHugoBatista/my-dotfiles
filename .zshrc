@@ -12,7 +12,6 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 # --------------------------------------------------
 alias list="ls -la --color=none"
-alias listl="ls -la | less"
 alias dockerc="docker-compose"
 alias dockerstop="docker stop $(docker ps -q)" # ???
 alias nv="nvim"
@@ -25,6 +24,10 @@ alias gulpall="gulp sprite && gulp build"
 alias gruntb="grunt build"
 alias gruntw="grunt watch"
 alias wp="docker-compose run --rm wp-cli"
+
+listl() {
+    ls -la $1 | less
+}
 
 # --------------------------------------------------
 # Ajusta as cores do terminal
