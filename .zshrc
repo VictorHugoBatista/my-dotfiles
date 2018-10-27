@@ -12,6 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 # --------------------------------------------------
 alias list="ls -la --color=none"
+alias listl="ls -la | less"
 alias dockerc="docker-compose"
 alias dockerstop="docker stop $(docker ps -q)" # ???
 alias nv="nvim"
