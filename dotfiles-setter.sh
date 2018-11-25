@@ -30,8 +30,11 @@ copy_to_home .vimrc ~
 copy_to_home .zshrc ~
 copy_to_home .tmux.conf ~
 copy_to_home .Xresources ~
+if [ ! -d ~/.config/nvim/ ]; then
+    mkdir ~/.config/nvim/
+fi
 cd .config/nvim/
-copy_to_home init.vim ~/.config/nvim
+copy_to_home init.vim ~/.config/nvim/
 cd - > /dev/null
 
 exit 0
