@@ -2,7 +2,7 @@
 # Configuração principal
 # --------------------------------------------------
 export ZSH=~/.oh-my-zsh
-ZSH_THEME="avit"
+ZSH_THEME="nanotech"
 plugins=(
     git
 )
