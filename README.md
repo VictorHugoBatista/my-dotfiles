@@ -3,7 +3,7 @@
 ![screenshot](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshot.png)
 
 ## Instalar
-* Rxvt-unicodea (https://wiki.archlinux.org/index.php/rxvt-unicode#Installation)
+* Urxvt (https://wiki.archlinux.org/index.php/rxvt-unicode#Installation)
 * Oh My ZSH (https://github.com/robbyrussell/oh-my-zsh)
 * Tmux (sudo apt install tmux)
 * NVM (https://github.com/creationix/nvm)
