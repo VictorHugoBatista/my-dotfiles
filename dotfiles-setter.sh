@@ -29,6 +29,7 @@ copy_to_home () {
 copy_to_home .vimrc ~
 copy_to_home .zshrc ~
 copy_to_home .tmux.conf ~
+copy_to_home .Xresources ~
 cd .config/nvim/
 copy_to_home init.vim ~/.config/nvim
 cd - > /dev/null
