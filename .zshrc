@@ -11,15 +11,22 @@ source $ZSH/oh-my-zsh.sh
 # --------------------------------------------------
 # Aliases
 # --------------------------------------------------
-alias list="ls -la --color=none"
-alias dockerc="docker-compose"
+# Neovim
 alias nv="nvim"
+alias snv="sudo nvim"
+
+# Tarefas de build
 alias yarnb="yarn run build"
 alias gulpb="gulp build"
 alias gulpall="gulp sprite && gulp build"
 alias gruntb="grunt build"
+
+# Docker
+alias dockerc="docker-compose"
 alias wp="docker-compose run --rm wp-cli"
 
+# Listagens de arquivos/diretórios
+alias list="ls -la --color=none"
 listl() {
     ls -la $1 | less
 }
