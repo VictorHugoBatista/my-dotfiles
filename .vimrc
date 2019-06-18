@@ -26,6 +26,7 @@ Plug 'airblade/vim-gitgutter'
 
 " Misc
 Plug 'mhinz/vim-startify'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 filetype plugin indent on
