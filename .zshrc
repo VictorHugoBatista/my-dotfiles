@@ -17,6 +17,7 @@ alias snv="sudo nvim"
 
 # Tarefas de build
 alias yarnb="yarn run build"
+alias yarnd="yarn run dev"
 alias gulpb="gulp build"
 alias gulpall="gulp sprite && gulp build"
 alias gruntb="grunt build"
@@ -24,6 +25,17 @@ alias gruntb="grunt build"
 # Docker
 alias dockerc="docker-compose"
 alias wp="docker-compose run --rm wp-cli"
+
+# Elixir no docker
+run_docker_elixir() {
+    docker run -it --rm --name elixir-inst1 -v "$PWD":/usr/src/myapp -w /usr/src/myapp elixir "$@"
+}
+run_elixir() {
+    run_docker_elixir elixir "$@"
+}
+run_mix() {
+    run_docker_elixir mix "$@"
+}
 
 # Listagens de arquivos/diretórios
 alias list="ls -la --color=none"
