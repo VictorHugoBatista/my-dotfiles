@@ -36,7 +36,7 @@ filetype plugin indent on
 " --------------------------------------------------
 
 " Tema do airline
-let g:airline_theme='qwq'
+let g:airline_theme='cool'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
