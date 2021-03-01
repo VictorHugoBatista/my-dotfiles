@@ -18,12 +18,9 @@ alias snv="sudo nvim"
 # Tarefas de build
 alias yarnb="yarn run build"
 alias yarnd="yarn run dev"
-alias gulpb="gulp build"
-alias gulpall="gulp sprite && gulp build"
-alias gruntb="grunt build"
 
 # Docker
-alias dockerc="docker-compose"
+alias dc="docker-compose"
 alias wp="docker-compose run --rm wp-cli"
 
 # Elixir no docker
