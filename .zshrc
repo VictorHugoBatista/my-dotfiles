@@ -21,7 +21,6 @@ alias yarnd="yarn run dev"
 
 # Docker
 alias dc="docker-compose"
-alias wp="docker-compose run --rm wp-cli"
 
 # Elixir no docker
 run_docker_elixir() {
