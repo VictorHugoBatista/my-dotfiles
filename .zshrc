@@ -16,24 +16,17 @@ alias nv="nvim"
 alias snv="sudo nvim"
 
 # Tarefas de build
-alias yarnb="yarn run build"
-alias yarnd="yarn run dev"
+alias yarnb="yarn build"
+alias yarnd="yarn dev"
+alias yarns="yarn start"
+alias yarna="yarn android"
+alias yarnar="yarn android:reactotron"
 
 # Docker
 alias dc="docker-compose"
 
+# Portas
 alias list-ports="sudo lsof -i -P -n | grep LISTEN"
-
-# Elixir no docker
-run_docker_elixir() {
-    docker run -it --rm --name elixir-inst1 -v "$PWD":/usr/src/myapp -w /usr/src/myapp elixir "$@"
-}
-run_elixir() {
-    run_docker_elixir elixir "$@"
-}
-run_mix() {
-    run_docker_elixir mix "$@"
-}
 
 # Listagens de arquivos/diretórios
 alias list="ls -la --color=none"

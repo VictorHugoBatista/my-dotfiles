@@ -26,8 +26,12 @@
 ```console
 alias nv="nvim"
 alias snv="sudo nvim"
-alias yarnb="yarn run build"
-alias yarnd="yarn run dev"
+alias yarnb="yarn build"
+alias yarnd="yarn dev"
+alias yarns="yarn start"
+alias yarna="yarn android"
+alias yarnar="yarn android:reactotron"
 alias dc="docker-compose"
+alias list-ports="sudo lsof -i -P -n | grep LISTEN"
 ```
 
