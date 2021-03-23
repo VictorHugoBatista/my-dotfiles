@@ -1,6 +1,11 @@
 # my-dotfiles
 
-![screenshot](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshot.png)
+## Screenshots
+![CRT com Tema MyProfile 2](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshots/CRT-MyProfile2.png)
+**CRT com Tema MyProfile 2**
+
+![CRT com Tema Hologram I](https://github.com/VictorHugoBatista/my-dotfiles/blob/master/screenshots/CRT-Hologram_I.png)
+**CRT com Tema Hologram I**
 
 ## Instalar
 * Urxvt (https://wiki.archlinux.org/index.php/rxvt-unicode#Installation) ou CRT (https://github.com/Swordfish90/cool-retro-term)
