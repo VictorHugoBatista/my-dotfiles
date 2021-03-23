@@ -22,6 +22,8 @@ alias yarnd="yarn run dev"
 # Docker
 alias dc="docker-compose"
 
+alias list-ports="sudo lsof -i -P -n | grep LISTEN"
+
 # Elixir no docker
 run_docker_elixir() {
     docker run -it --rm --name elixir-inst1 -v "$PWD":/usr/src/myapp -w /usr/src/myapp elixir "$@"
