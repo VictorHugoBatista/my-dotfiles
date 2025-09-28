@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Squirrelsong Light (Dark Terminal)",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.9,
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "Iosevka Term Slab",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.4
+}

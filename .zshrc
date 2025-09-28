@@ -2,18 +2,16 @@
 # Configuração principal
 # --------------------------------------------------
 export ZSH=~/.oh-my-zsh
-ZSH_THEME="refined"
+ZSH_THEME="bureau"
 plugins=(
     git
+    asdf
 )
 source $ZSH/oh-my-zsh.sh
 
 # --------------------------------------------------
 # Aliases
 # --------------------------------------------------
-# Neovim
-alias nv="nvim"
-alias snv="sudo nvim"
 
 # Tarefas de build
 alias yarnb="yarn build"
@@ -35,17 +33,31 @@ listl() {
 }
 
 # --------------------------------------------------
+# Aliases do Git
+# --------------------------------------------------
+# git st -> git status -s
+git config --global alias.st "status -s"
+
+# --------------------------------------------------
 # Ajusta as cores do terminal
 # --------------------------------------------------
 export TERM=xterm-256color
 
 # --------------------------------------------------
-# Carrega programas externos
+# Carrega o tmux automaticamente
 # --------------------------------------------------
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
 if [ ! $TMUX ]; then
     tmux attach -t base || tmux new -s base
 fi
 
+# --------------------------------------------------
+# Ajusta as cores do terminal
+# --------------------------------------------------
+ssh-add ~/.ssh/github
+
+# --------------------------------------------------
+# Carrega o ASDF automaticamente
+# --------------------------------------------------
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
+autoload -Uz compinit && compinit
